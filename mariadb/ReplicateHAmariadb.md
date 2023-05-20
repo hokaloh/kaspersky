@@ -77,7 +77,7 @@ Next, verify the Master status using the following command:
 > SHOW MASTER STATUS;
 ```
 You should get the binary log file name and position in the following output:
-![Alt text](image/Picture10.png) 
+![Alt text](image/Picture10.png) <br /> 
 Note: Please remember File and Position value from the above output. You will need this value on the Slave server.
 
 ### STEP 4 – Setting Configuration Slave Node  ###
