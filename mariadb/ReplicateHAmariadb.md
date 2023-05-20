@@ -134,13 +134,13 @@ Once you are connected, check the Slave status with the following command:
 > SHOW SLAVE STATUS \G
 ```
 If everything is fine, you should get the following output:
-![Alt text](image/Picture2.png) 
+![Alt text](image/Picture2.png) <br />
 Now, list all databases using the following command:
 ```
 > SHOW DATABASES;
 ```
 You can see database is replicated from the Master node:
-![Alt text](image/Picture3.png)
+![Alt text](image/Picture3.png) <br />
 
 ### Step 6 – Create user database MariaDB Master for KSC remote ###
 Need to create a new user Kaspersky Security Center to remote the database MariaDB server, locate IP KSC to specific where the user connect
@@ -158,13 +158,13 @@ Tell the server to reload the grant tables
 
 ### Step 7 – Connect KSC to MariaDB Master ###
 On select the DBMS type during installation install Kaspersky Security Center, pick the DBMS is MySQL or MariaDB
-![Alt text](image/Picture4.png) 
+![Alt text](image/Picture4.png) <br />
 On form, In instance name put the IP Address MariaDB server 
-![Alt text](image/Picture5.png) 
+![Alt text](image/Picture5.png) <br />
 For the authentication, write the user account 'userRemote_mariadb' and password “password_userRemote” that we create later 
-![Alt text](image/Picture6.png) 
+![Alt text](image/Picture6.png) <br />
 After that, click Install to install Kaspersky Security Center on the machine 
-![Alt text](image/Picture7.png)
+![Alt text](image/Picture7.png) <br />
 
 ### Step 8 – Check Detail Database on KSC ###
 ![Alt text](image/Picture8.png)
