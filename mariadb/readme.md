@@ -1,4 +1,4 @@
-**Configuring the MariaDB x64 server for working with Kaspersky Security Center 14.2**
+#Configuring the MariaDB x64 server for working with Kaspersky Security Center 14.2#
 Enable support of InnoDB and MEMORY storage and of UTF-8 and UCS-2 encodings
 
 Windows: 
