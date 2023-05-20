@@ -160,10 +160,10 @@ Tell the server to reload the grant tables
 On select the DBMS type during installation install Kaspersky Security Center, pick the DBMS is MySQL or MariaDB
 ![Alt text](image/Picture4.png)
 On form, In instance name put the IP Address MariaDB server 
-![Alt text](image/Picture5.png)
-For the authentication, write the user account 'userRemote_mariadb' and password “password_userRemote” that we create later
-![Alt text](image/Picture6.png)
-After that, click Install to install Kaspersky Security Center on the machine
+![Alt text](image/Picture5.png) 
+For the authentication, write the user account 'userRemote_mariadb' and password “password_userRemote” that we create later 
+![Alt text](image/Picture6.png) 
+After that, click Install to install Kaspersky Security Center on the machine 
 ![Alt text](image/Picture7.png)
 
 ### Step 8 – Check Detail Database on KSC ###
