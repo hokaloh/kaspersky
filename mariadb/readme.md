@@ -17,15 +17,15 @@ By default, the optimizer add-ons join_cache_incremental, join_cache_hashed, joi
 To check whether optimizer add-ons are enabled:
 
 1. In the MariaDB client console, execute the command:
-'''
+```
 SELECT @@optimizer_switch;
-'''
+```
 2. Make sure that its output contains the following lines:
-'''
+```
 join_cache_incremental=on
 join_cache_hashed=on
 join_cache_bka=on
-'''
+```
 If these lines are present and have the values on, then optimizer add-ons are enabled.
 --------------------------------------------------------------------------------------
 If these lines are missing or have off values, you need to do the following:
@@ -33,18 +33,18 @@ If these lines are missing or have off values, you need to do the following:
 Windows:
 1. Open the my.ini file in a text editor.
 2. Add the following lines into the [mysqld] section of the my.ini file:
-'''
+```
 optimizer_switch='join_cache_incremental=on'
 optimizer_switch='join_cache_hashed=on'
 optimizer_switch='join_cache_bka=on'
-'''
+```
 Linux:
 1. Open the my.cnf file in a text editor.
 2. Add the following lines into the my.cnf file:
-'''
+```
 optimizer_switch='join_cache_incremental=on'
 optimizer_switch='join_cache_hashed=on'
 optimizer_switch='join_cache_bka=on'
-'''
+```
 The add-ons join_cache_incremental, join_cache_hash, and join_cache_bka are enabled.
 
