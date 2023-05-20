@@ -77,7 +77,7 @@ Next, verify the Master status using the following command:
 > SHOW MASTER STATUS;
 ```
 You should get the binary log file name and position in the following output:
-![Alt text](image/Picture10.png)
+![Alt text](image/Picture10.png) 
 Note: Please remember File and Position value from the above output. You will need this value on the Slave server.
 
 ### STEP 4 – Setting Configuration Slave Node  ###
@@ -134,7 +134,7 @@ Once you are connected, check the Slave status with the following command:
 > SHOW SLAVE STATUS \G
 ```
 If everything is fine, you should get the following output:
-![Alt text](image/Picture2.png)
+![Alt text](image/Picture2.png) 
 Now, list all databases using the following command:
 ```
 > SHOW DATABASES;
@@ -158,7 +158,7 @@ Tell the server to reload the grant tables
 
 ### Step 7 – Connect KSC to MariaDB Master ###
 On select the DBMS type during installation install Kaspersky Security Center, pick the DBMS is MySQL or MariaDB
-![Alt text](image/Picture4.png)
+![Alt text](image/Picture4.png) 
 On form, In instance name put the IP Address MariaDB server 
 ![Alt text](image/Picture5.png) 
 For the authentication, write the user account 'userRemote_mariadb' and password “password_userRemote” that we create later 
