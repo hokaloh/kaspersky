@@ -1,1 +1,1 @@
-/image/Picture1.png
+image/Picture1.png
