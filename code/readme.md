@@ -31,11 +31,11 @@ Currently featuring only one capability, with more features planned for the futu
 python createUsers.py 
 ```
 ! Please adhere to the provided CSV format example within this repository. !<br />
-!! Adding users in the next rows !!
-JSON output example following script execution
-From This:
-![sampleData](./images/sampleDataCSV.png)
-To This:
+!! Adding users in the next rows !!<br />
+JSON output example following script execution<br />
+From This:<br />
+![sampleData](Images/sampleDataCSV.png)
+To This:<br />
 ```
 [{
       "Row":2,
