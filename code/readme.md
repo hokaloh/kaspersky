@@ -26,7 +26,7 @@ python3 -m venv klakoapi-env
 >
 Version 1.0
 Currently featuring only one capability, with more features planned for the future
-> 1. Generate additional users by utilizing a CSV file
-> ``` python createUsers.py ```
-> ! Please adhere to the provided CSV format example within this repository. !
-> !! Adding users in the next rows !!
+1. Generate additional users by utilizing a CSV file
+``` python createUsers.py ```
+! Please adhere to the provided CSV format example within this repository. !
+!! Adding users in the next rows !!
