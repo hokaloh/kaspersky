@@ -32,3 +32,26 @@ python createUsers.py
 ```
 ! Please adhere to the provided CSV format example within this repository. !<br />
 !! Adding users in the next rows !!
+JSON output example following script execution
+From This:
+![sampleData](.\images\sampleDataCSV.png)
+To This:
+```
+[{
+      "Row":2,
+      "ID":20,
+      "Status":"Username Lucas Successfull Added"
+   },{
+      "Row":3,
+      "Status":"Username Sahar Already Exists"
+   },{
+      "Row":4,
+      "Error":"User Samad Error Missing Password Special Characters"
+   },{
+      "Row":5,
+      "Status":"userPassword is Missing"
+   },{
+      "Row":6,
+      "Error":"User KAKAKA Must Password 8-16 Characters, No Spaces"
+   }]
+```
