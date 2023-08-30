@@ -34,7 +34,7 @@ python createUsers.py
 !! Adding users in the next rows !!
 JSON output example following script execution
 From This:
-![sampleData](.\images\sampleDataCSV.png)
+![sampleData](./images/sampleDataCSV.png)
 To This:
 ```
 [{
