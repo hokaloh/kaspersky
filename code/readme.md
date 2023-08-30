@@ -24,7 +24,7 @@ python3 -m venv klakoapi-env
 ***
 > The script is compatible with the same KSC server in one stack
 >
-Version 1.0<br />
+##**Version 1.0**<br />
 Currently featuring only one capability, with more features planned for the future<br />
 1. Generate additional users by utilizing a CSV file<br />
 ```
