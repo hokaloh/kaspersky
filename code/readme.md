@@ -4,20 +4,20 @@
 > KlAkOAPI Python package presents a wrapper library for interacting Kaspersky Security Center server via KSC Open API. With this package calls to KSC server can be performed as calls for methods of provided classes. Params datatype is also represented as a class, along with methods for parsing, composing and re-composing its contents. KlAkOAPI package requires Python 3.6 and higher.
 > 
 **Note:** Python 3 must be installed on your system to execute these scripts.<br />
-1.It is necessary to download all the files within this repository<br />
-2.Must set up a Python virtual environment
+1. It is necessary to download all the files within this repository<br />
+2. Must set up a Python virtual environment
 ```
 python3 -m venv klakoapi-env
 ```
-3.And then activate it
+3. And then activate it
 ```
 .\klakoapi-env\Scripts\activate
 ```
-4.Utilized the previously created Python environment file, find yourself within an environment:
+4. Utilized the previously created Python environment file, find yourself within an environment:
 ```
 (klakoapi-env)
 ```
-5.Subsequently, Install KlAkOAPI package and which already had the KlAkOAPI package installed.
+5. Subsequently, Install KlAkOAPI package and which already had the KlAkOAPI package installed.
 ```
 (klakoapi-env) pip install KlAkOAPI.tar.gz
 ```
@@ -26,7 +26,7 @@ python3 -m venv klakoapi-env
 >
 Version 1.0<br />
 Currently featuring only one capability, with more features planned for the future<br />
-1.Generate additional users by utilizing a CSV file<br />
+1. Generate additional users by utilizing a CSV file<br />
 ```
 python createUsers.py 
 ```
