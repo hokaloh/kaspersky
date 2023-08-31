@@ -39,19 +39,22 @@ To This:<br />
 ```
 [{
       "Row":2,
-      "ID":20,
+      "ID":22,
       "Status":"Username Lucas Successfull Added"
    },{
       "Row":3,
       "Status":"Username Sahar Already Exists"
    },{
       "Row":4,
-      "Error":"User Samad Error Missing Password Special Characters"
+      "Status":"Username Sergio Already Exists"
    },{
       "Row":5,
-      "Status":"userPassword is Missing"
+      "Error":"User Samad Error Missing Password Special Characters"
    },{
       "Row":6,
+      "Error":"userPassword is Missing"
+   },{
+      "Row":7,
       "Error":"User KAKAKA Must Password 8-16 Characters, No Spaces"
    }]
 ```
