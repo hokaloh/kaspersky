@@ -33,6 +33,7 @@ python createUsers.py
 ! Please adhere to the provided CSV format example within this repository. !<br />
 !! Adding users in the next rows !!<br />
 ### <u>JSON output example following script execution</u><br />
+![interface](Images/Interface.png)<br />
 From This:<br />
 ![sampleData](Images/sampleDataCSV.png)<br />
 To This:<br />
